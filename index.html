@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Game</title>
+    
+    <!-- Linking an external CSS file for styling -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <!-- Message container to display the winner message -->
+    <div class="msg-container hide">
+      <p id="msg">Winner</p>
+      <button id="new-btn">New Game</button> <!-- Button to start a new game -->
+    </div>
+
+    <main>
+      <h1>Tic Tac Toe</h1> <!-- Main heading of the game -->
+
+      <!-- Game container -->
+      <div class="container">
+        <div class="game">
+          <!-- 9 buttons representing the tic-tac-toe grid -->
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+
+      <!-- Reset button to restart the game -->
+      <button id="reset-btn">Reset Game</button>
+    </main>
+
+    <!-- Linking the external JavaScript file for game logic -->
+    <script src="script.js"></script>
+  </body>
+</html>
